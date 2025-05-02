@@ -1,6 +1,7 @@
 {
 	"name": "@nahana/react-easy-ease",
-	"version": "1.0.0",
+	"version": "1.0.1",
+	"description": "An easy to use library of easing presets.",
 	"main": "dist/index.js",
 	"module": "dist/index.mjs",
 	"types": "dist/index.d.ts",
@@ -10,8 +11,15 @@
 			"types": "./dist/index.d.ts",
 			"default": "./dist/index.mjs"
 		},
-		"./css": "./dist/main.css"
+		"./css": "./dist/index.css"
 	},
+	"keywords": [
+		"easing",
+		"easy ease",
+		"cubic bezier",
+		"animation",
+		"curves"
+	],
 	"scripts": {
 		"build": "node build.mjs",
 		"lint": "tsc"
