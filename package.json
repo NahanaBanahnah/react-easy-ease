@@ -1,0 +1,26 @@
+{
+	"name": "@nahana/react-easy-ease",
+	"version": "1.0.0",
+	"main": "dist/index.js",
+	"module": "dist/index.mjs",
+	"types": "dist/index.d.ts",
+	"license": "MIT",
+	"exports": {
+		".": {
+			"types": "./dist/index.d.ts",
+			"default": "./dist/index.mjs"
+		},
+		"./css": "./dist/main.css"
+	},
+	"scripts": {
+		"build": "node build.mjs",
+		"lint": "tsc"
+	},
+	"devDependencies": {
+		"@changesets/cli": "^2.29.2",
+		"lodash": "^4.17.21",
+		"tsup": "^8.4.0",
+		"typescript": "^5.8.3"
+	},
+	"dependencies": {}
+}
