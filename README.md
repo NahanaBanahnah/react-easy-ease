@@ -2,11 +2,17 @@
 
 Full README Coming Soon
 
-# REACT-EASY-EASE
+## REACT-EASY-EASE
 
-An easy to use package of cubic bezier presets.
+### About
 
-# Installation
+`@nahana/react-easy-ease` is an easy to use animation preset library. The package includes numerous easing presets that can be used in React animation libraries such as [Motion](https://motion.dev/) or as CSS **transition** cubic-bezier values.
+
+### Full Documentation & Demos
+
+Visit the [React Easy Ease](https://react-easy-ease-docs.vercel.app) docs for full documentation as well as previews to each preset.
+
+### Installation
 
 ```bash
 npm i @nahana/react-easy-ease
@@ -14,11 +20,15 @@ npm i @nahana/react-easy-ease
 #or
 
 yarn add @nahana/react-easy-ease
+
+#or
+
+pnpm @nahana/react-easy-ease
 ```
 
-# Usage
+## Usage
 
-## React With [Motion](https://motion.dev/)
+### React With [Motion](https://motion.dev/)
 
 ```JavaScript
 import { motion } from 'motion/react'
@@ -42,7 +52,7 @@ export const Animate = () => {
 }
 ```
 
-## CSS
+### CSS
 
 ```CSS
 /** IMPORT PACKAGE VARS */
@@ -54,9 +64,9 @@ a {
 }
 ```
 
-# VALUES
+## VALUES
 
-## [Robert Penner Easing Functions](http://robertpenner.com/easing/)
+### [Robert Penner Easing Functions](http://robertpenner.com/easing/)
 
 CSS interpretations by [Matthew Lein](https://matthewlein.com/tools/ceaser)
 
@@ -96,3 +106,47 @@ CSS interpretations by [Matthew Lein](https://matthewlein.com/tools/ceaser)
 | `Standard`              | GM_Standard             |
 | `StandardDecelerate`    | GM_StandardDecelerate   |
 | `StandardAccelerate`    | GM_StandardAccelerate   |
+
+## Andrew Embury
+
+Homepage: [yellowlab.tv](https://www.yellowlab.tv/)
+
+Instagram: [@yellowlabtv](https://www.instagram.com/yellowlabtv/)
+
+| PRESET                  |                        |
+| ----------------------- | ---------------------- |
+| `Smooth Operator`       | AE_SmoothOperator      |
+| `Endless Bummer`        | AE_EndlessBummer       |
+| `Get Around`            | AE_GetAround           |
+| `Unknown Soldier`       | AE_UnknownSoldier      |
+| `Spanish Caravan`       | AE_SpanishCaravan      |
+| `Five to One`           | AE_FiveToOne           |
+| `Wild in The Streets`   | AE_WildInTheStreets    |
+| `Daniel`                | AE_Daniel              |
+| `Crocodile Tears`       | AE_CrocodileTears      |
+| `Crystal Ship`          | AE_CrystalShip         |
+| `10cc`                  | AE_10Cc                |
+| `Bishop`                | AE_Bishop              |
+| `Scarborough Fair`      | AE_ScarboroughFair     |
+| `Tulsa Time`            | AE_TulsaTime           |
+| `Norwegian Skog`        | AE_NorwegianSkog       |
+| `Weird Fishes`          | AE_WeirdFishes         |
+| `Brave Strangers`       | AE_BraveStrangers      |
+| `Stranger Than Diction` | AE_StrangerThanDiction |
+| `The Gambler`           | AE_TheGambler          |
+| `Cracklin Rose`         | AE_CracklinRose        |
+
+## Cedits & Thanks
+
+-   Robert Penner: Creator of the original easing function
+    -   [Easing Functions](http://robertpenner.com/easing/)
+    -   [Easing Equations](http://robertpenner.com/scripts/easing_equations.txt)
+-   Matthew Lein: Creator of CSS interpretations of Penner's functions
+    -   [Ceaser Animation Tool](https://matthewlein.com/tools/ceaser)
+-   Andrew Embury: Creator of Andrew Embury's extravaganza animation presets
+    -   [yellowlab.tv](https://www.yellowlab.tv/)
+    -   [@yellowlabtv](https://www.instagram.com/yellowlabtv/)
+
+## License
+
+2025 Nate Mitchell, MIT License
