@@ -149,4 +149,4 @@ Instagram: [@yellowlabtv](https://www.instagram.com/yellowlabtv/)
 
 ## License
 
-2025 Nate Mitchell, MIT License
+2025 Nate Mitchell, [MIT](https://github.com/NahanaBanahnah/react-easy-ease/blob/master/LICENSE)
